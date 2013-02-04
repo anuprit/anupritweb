@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Ziweb</title>
-
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -23,6 +22,9 @@
 
 
   <div class="container">
+    <div class="alert alert-info">
+      Heads up! I looking for new work opportunities! To hire me email at - FIRST NAME [ A T ] g m a i l [ D O T ] c o m
+    </div>
     <div class="row">
       <div class="span9"><%= yield %></div>
       <div class="span3">
@@ -34,16 +36,17 @@
             I never say no to a coffee -<br>
             Email - FIRST NAME [ A T ] g m a i l [ D O T ] c o m<br />
             <a href="http://www.linkedin.com/pub/anuprit-kale/17/a40/a1b/">Linkedin</a><br>
-<a href="http://twitter.com/anupritt">@anupritt</a><br />
-<a href="http://www.facebook.com/anuprit.kale">Facebook</a>
-
+            <a href="http://twitter.com/anupritt">@anupritt</a><br />
+            <a href="http://www.facebook.com/anuprit.kale">Facebook</a>
           </div>
-
         </div>
-
       </div>
-      
-
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &copy;  2013</p>     
+    </div>
+  </footer>
 </body></html>
